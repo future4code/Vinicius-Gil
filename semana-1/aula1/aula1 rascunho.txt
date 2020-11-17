@@ -27,8 +27,6 @@ cat
 ./automoveis-Peso: 91,2 kg
 
 ./pessoas:Annabel Church        F       38      Vila Buckingham, linha 179
-catls
-ls
 
 
 
