@@ -1,0 +1,53 @@
+PISTA: A filmagem do caixa eletrônico está embaçada, mas mostra que o suspeito é um homem alto, pelo menos 1,83m de altura.
+
+PISTA: Encontramos uma carteira que provavelmente pertence ao assassino. Nenhum documento de identidade,
+ apenas alguns trocados e carteirinhas dos grupos AAA, Delta SkyMiles, biblioteca e do Museu de História do Bash. 
+Impossível rastrear as carteirinhas, e nenhuma delas possui nome, por algum motivo.
+
+PISTA: Interrogamos o garçom da cafeteria próxima à cena. 
+Ele disse que uma mulher saiu da cafeteria logo antes de ouvirem os tiros. 
+O nome dela era Annabel, tinha cabelo loiro curto e um sotaque da Nova Zelândia.
+
+cat
+
+**
+./associacoes/AAA:Annabel Church
+./associacoes/Museu_da_Hist├│ria_do_Bash:Annabel Church
+*
+./associacoes/REI:Annabel Church
+./associacoes/Clube_de_Campo:Annabel Church
+./associacoes/Academia_Fitness:Annabel Church
+./associacoes/AAdvantage:Annabel Church
+
+./automoveis-Placa L2E48EF
+./automoveis-Marca: BMW
+./automoveis-Cor: Laranja
+./automoveis:Proprietário: Annabel Church
+./automoveis-Altura: 1,65 m
+./automoveis-Peso: 91,2 kg
+
+./pessoas:Annabel Church        F       38      Vila Buckingham, linha 179
+catls
+ls
+
+
+
+Matt Waite
+Mike Bostock
+Brian Boyer
+Augustin Lozano
+Jeremy Bowers
+Nikolaus Milatz
+
+./automoveis-Placa L3375A9
+./automoveis-Marca: Honda
+./automoveis-Cor: Azul
+./automoveis:Proprietário: Jeremy Bowers
+
+
+
+./entrevista-699607:No entanto, ela reportou que viu um carro fugindo da cena do crime. Descreveu como um Honda azul, com placa que começa com "L337" e termina com "9".
+./entrevista-628618:Fits the profile, except for the make of his car.  Should be considered a suspect if and only if there is evidence Boyer owns a second car.
+./entrevista-737609:Keller's car matches the description, but not his license plate.
+
+
