@@ -1,0 +1,43 @@
+
+body {text-align: center; background-color: bisque; height: 0; margin: 0; border: 200px;
+}
+img {max-width: 100px;
+}
+ul {display: inline-block;}
+#header {background-color: brown; color: white;
+}
+#header > p {font-size: x-large;}
+.menu {font-size: 150%; font-weight: 900; background-color: orange; padding: 5px; margin-top: -25px; 
+}
+
+#descricao{font-size: xx-large ;font-weight: bold;
+
+}
+
+footer {background-color: brown;color: cornsilk; position: absolute;bottom: 0; width: 100%;}
+
+
+table {margin: auto; border: solid; border-color: brown;}
+td {border: solid; border-color: brown;}
+form {font-size: xx-large; }
+a:link {
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: bisque;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    text-decoration: underline;
+  }
+
+* {margin-top: 0;}
