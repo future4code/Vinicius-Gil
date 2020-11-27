@@ -1,9 +1,9 @@
-#menu {font-style: oblique; position: fixed;font-size: large; background-color: tomato; float: right; margin-top: -5vw;color: white; width:  100%; text-align: right; font-family: Impact, 'Arial Narrow Bold', sans-serif;}
+#menu {font-style: oblique; position: fixed;font-size: x-large; background-color: tomato; float: right; margin-top: -5vw;color: white; width:  100%; text-align: right; font-family: Impact, 'Arial Narrow Bold', sans-serif;}
 #menu > a:visited , #menu2 > a:visited, #menu3 > a:visited, #menu4 > a:visited {color: white;}
 #menu > a:hover ,#menu2 > a:hover , #menu3 > a:hover, #menu4 > a:hover {color:white;}
-#menu2 {font-style: oblique;position: fixed;font-size: large; background-color: tomato; float: right; margin-top: -5vw ;color: white; width:  100%; text-align: right; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-#menu3 {font-style: oblique;position: fixed; font-size: large; background-color: tomato; float: right; margin-top: -0.5vw ;color: white; width:  100%; text-align: right; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-#menu4 {font-style: oblique;position: fixed;font-size: large; background-color: tomato; float: right; margin-top: -10vw ;color: white; width:  100%; text-align: right; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#menu2 {font-style: oblique;position: fixed;font-size: x-large; background-color: tomato; float: right; margin-top: -5vw ;color: white; width:  100%; text-align: right; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#menu3 {font-style: oblique;position: fixed; font-size: x-large; background-color: tomato; float: right; margin-top: -0.5vw ;color: white; width:  100%; text-align: right; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+#menu4 {font-style: oblique;position: fixed;font-size: x-large; background-color: tomato; float: right; margin-top: -10vw ;color: white; width:  100%; text-align: right; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 
 body {background-color: blanchedalmond ;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
 #whoami { max-width: 500px; margin: 5vw 0vw 15vw 12vw ; padding-top: 10vw;}
@@ -15,19 +15,19 @@ h1, h2, h3{line-height: 1.2; font-weight: 600;}
 p {font-size: x-large; }
 #Contato {border: solid; width: 60%; padding: 3px;opacity: 0.6;}
 #Contato:hover { opacity: 1; background-color: mediumslateblue;}
-footer {bottom: -3vw; text-align: center; background-color: tomato ;color: cornsilk; position: relative; width: 100%; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;}
+footer {bottom: -4vw; text-align: center; background-color: tomato ;color: cornsilk; position: relative; width: 100%; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;}
 #footer2 { bottom: -20vw; position: relative;}
 #footer3 { bottom: -7vw; position: absolute;}
-#footer4 { position: absolute}
+#footer4 { display: flex; width: 100vw; justify-content: center;}
 #portfolio { margin: 5vw 0 10vw 10vw; border-bottom: solid; width: 50%; display: block}
 table, th, td { margin: 0 0 0 10vw; border: solid; }
 #imgport { display:block; max-width: 375px;}
 
 /* /contato */
 .formulario {margin: 10vw 0 0 25vw; width: 20%;}
-#fmsg {height: 20vw;}
+#fmsg {height: 20vw; width: 50vw;}
 input {width: 50vw;}
-.github-button {margin-left: 10vw}
+#social {margin: 20px; max-width: 100px;}
 
 * {margin-left: 0; margin-right: 0;}
 
@@ -39,4 +39,7 @@ input {width: 50vw;}
 #footer3 { bottom: -60vw}
 #menu3 {margin-top: -2.5vw }
 #menu4 {margin-top: -10vw;
-}}
+   }   #menu, #menu2, #menu3, #menu4 {
+       font-size: large;
+   }
+}
