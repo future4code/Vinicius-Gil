@@ -16,7 +16,7 @@
 // // a = b
 
 // // console.log(a, b, c)
-// sera impresso: 10 20 10
+// sera impresso: 10 10 10
 
 
 // let nome;
