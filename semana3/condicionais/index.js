@@ -45,10 +45,24 @@
 // }
 // EX.7
 
-tipo = prompt("qual o gênero de filme que vão assistir??")
-preco = Number(prompt("preço do ingresso?(R$)"))
+// tipo = prompt("qual o gênero de filme que vão assistir??")
+// preco = Number(prompt("preço do ingresso?(R$)"))
 
-if (preco < 15 && tipo == "fantasia")
-    console.log("Bom filme!")
-    else
-    console.log("Escolha outro filme :(")
+// if (preco < 15 && tipo == "fantasia")
+//     console.log("Bom filme!")
+//     else
+//     console.log("Escolha outro filme :(")
+
+    // Desafios
+// Desafio.1
+
+// tipo = prompt("qual o gênero de filme que vão assistir??")
+// preco = Number(prompt("preço do ingresso?(R$)"))
+
+// if (preco < 15 && tipo == "fantasia"){
+//     snack = prompt("que snack vai comprar?")
+//     console.log("Bom filme! ... com ", snack)
+//     }
+//     else
+//     console.log("Escolha outro filme :(")
+
