@@ -66,3 +66,29 @@
 //     else
 //     console.log("Escolha outro filme :(")
 
+Nome = prompt("Nome completo")
+Tipo = prompt("Tipo de jogo: IN indica internacional; e DO indica doméstico;")
+
+
+
+Etapa = prompt("Etapa do jogo: SF indica semi-final; DT indica decisão de terceiro lugar; e FI indica final")
+    if (Etapa == "SF") 
+        Etapa = [1320, 880, 550, 220]
+    else if (Etapa =="DT")  
+        Etapa = [660, 440, 330, 170]
+    else if (Etapa == "FI") 
+        Etapa = [1980, 1320, 880, 330]
+Categoria = Number(prompt("Categoria: pode ser as opções 1, 2, 3 ou 4;"))
+ingressos = prompt("Quantidade de ingressos")
+
+Categoria -=1
+console.log(Categoria)
+
+let preco = Etapa[Categoria]
+let cotacao = 4.1
+if (Tipo == "IN"){
+
+    preco = preco * cotacao}
+
+alert(`Valor do Ingresso: ${preco}`)
+alert(`Valor total: ${ingressos * preco}`)
